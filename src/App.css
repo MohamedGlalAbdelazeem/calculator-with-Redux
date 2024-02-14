@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(5, 51, 116);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.border{
+  border: 3px solid rgb(0, 179, 255);
+}
+.container{
+  width: 80%;
+  height: 80vh;
+  margin: 2rem auto;
+}
+.container .content{
+  width: 30%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+.content .screen{
+  height: 60px;
+  margin: 2rem 0;
+}
+.content .inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content .btns{
+  display: flex;
+  font-size: 50px;
+  justify-content: space-around;
+}
+.content .btns button{
+  font-size: 25px;
+  cursor: pointer;
+}
